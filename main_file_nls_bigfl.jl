@@ -3,7 +3,7 @@
 # ============================================================================
 
 using Pkg
-Pkg.activate("/home/kunet.ae/100060615/RCfiles/NLS_project2/NLS_bigfloat")
+Pkg.activate("src/NLS_bigfloat")
 
 # Set high precision arithmetic (113 bits ≈ quadruple precision)
 setprecision(BigFloat, 113)
